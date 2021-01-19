@@ -9,6 +9,9 @@ export default {
     viewport: {
       viewports: INITIAL_VIEWPORTS,
       defaultViewport: 'iphone6'
+    },
+    backgrounds: {
+      default: 'twitter'
     }
   }
 }
