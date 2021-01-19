@@ -20,7 +20,8 @@ export const parameters = {
         value: '#3b5998'
       }
     ]
-  }
+  },
+  layout: 'centered'  //centerd, fullscreen, padding(default)
 }
 
 export const decorators = [
