@@ -23,6 +23,7 @@ const Template = (args, { argTypes }) => ({
 })
 
 export const Primary = Template.bind({})
+Primary.storyName = 'プライマリーボタン'
 Primary.args = {
   primary: true,
   secondary: false,
@@ -30,6 +31,7 @@ Primary.args = {
 }
 
 export const Secondary = Template.bind({})
+Secondary.storyName = 'セカンダリーボタン'
 Secondary.args = {
   primary: false,
   scondary: true,
